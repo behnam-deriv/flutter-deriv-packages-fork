@@ -11,7 +11,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  deriv_chart: ^0.3.8
+  deriv_chart:
+    git:
+      url: git@github.com:behnam-deriv/flutter-chart-fork.git
+      ref: remove-savelayer-usage
 
   deriv_theme:
     git:
